@@ -1,37 +1,39 @@
-/* * {
+* {
   padding: 0;
   margin: 0;
-} */
-/* 
+} 
+
 body {
   font-family: "Fauna One", serif;
   font-size: 20px;
-} */
+}
 
-/* li {
+ ul > li a{
   list-style: none;
-} */
-
-/* a {
   color: white;
-} */
-/* 
+} 
+
+li {
+  list-style: none;
+}
+
+
 a:hover,
 a:focus {
   color: white;
   text-decoration: none;
-} */
+}
 
-h1 {
+.head {
   text-align: center;
-  margin-top: 4%;
+  margin-top: 17%;
   font-size: 412.5%;
 }
 
-h1 > small {
+/* h1 > small {
   display: block;
   color: white;
-}
+} */
 
 h2 {
   font-size: 245%;
@@ -42,7 +44,7 @@ h2 {
   display: block;
   margin: 42px 0;
   content: "";
-} */
+}  */
 
 h3 {
   font-weight: bold;
@@ -55,13 +57,13 @@ h4 {
 h6 {
   color: #f0f0f0;
 }
-/* 
-h1 .logo {
+ 
+/* h1 .logo {
   font-size: 230%;
   font-family: "Brush Script MT", cursive;
   width: 200px;
   margin-left: -20px;
-} */
+}   */
 
 /* ELEMENTS */
 .noir {
@@ -98,7 +100,7 @@ h1 .logo {
 }
 
 .overlay {
-  background-color: rgba(4, 14, 22, 0.83);
+  background-color: rgba(4, 14, 22, 0.7);
   height: 100%;
   width: 100%;
   padding-bottom: 380px;
@@ -113,7 +115,7 @@ h1 .logo {
 #home nav {
   margin: 0 auto;
   width: 700px;
-  padding-top: 80px;
+  padding-top: 40px;
 }
 
 #home nav ul {
@@ -179,7 +181,7 @@ h1 .logo {
   border-color: #0077b5;
 }
 
-.freecodecamp {
+/* .freecodecamp {
   border-color: #4a2b0f;
 }
 
@@ -196,7 +198,7 @@ h1 .logo {
 .freecodecamp:hover {
   background-color: #4a2b0f;
   transition: background-color 0.4s;
-}
+} */
 
 #about .info {
   display: flex;
@@ -228,7 +230,7 @@ h1 .logo {
   padding-bottom: 80px;
 }
 
-#skill-set ul {
+/* #skill-set ul {
   overflow: hidden;
 }
 
@@ -251,7 +253,7 @@ h1 .logo {
 .skills li {
   padding: 20px;
 }
-
+ */
 #portfolio {
   background-color: #423a3a;
   padding-bottom: 80px;
@@ -403,11 +405,11 @@ h1 .logo {
   transition: top 0.9s;
 }
 
-/* #contact {
+#contact {
   background: url("https://res.cloudinary.com/dj7k0lade/image/upload/v1526689027/codepen/portfolio/map.jpg")
     no-repeat;
   background-size: cover;
-} */
+}
 
 #contact .overlay {
   background: rgba(0, 0, 0, 0.968);
