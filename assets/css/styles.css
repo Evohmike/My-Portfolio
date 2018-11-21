@@ -26,14 +26,17 @@ a:focus {
 
 .head {
   text-align: center;
-  margin-top: 17%;
+  margin-top: 26%;
   font-size: 412.5%;
+  color: white;
 }
 
-/* h1 > small {
+
+
+ /* h1 > small {
   display: block;
   color: white;
-} */
+}  */
 
 h2 {
   font-size: 245%;
@@ -100,14 +103,13 @@ h6 {
 }
 
 .overlay {
-  background-color: rgba(4, 14, 22, 0.7);
+  background-color: rgba(4, 14, 22, 0.9);
   height: 100%;
-  width: 100%;
-  padding-bottom: 380px;
+  padding-bottom: 200px;
 }
 
 #home {
-	background: url("https://images.unsplash.com/38/IbJK5etSN6dH6jAF4U0U_DSC_0280-1.jpg?ixlib=rb-0.3.5&s=f460953c8d76a9656ab5144a942a972f&auto=format&fit=crop&w=1055&q=80") no-repeat;
+	background: url("https://cdn-images-1.medium.com/max/2000/1*qBNlFWQ9G_RPVm7tbZaXOw.jpeg") no-repeat;
 	width: 100%;
 	background-size: cover;
 }
@@ -137,7 +139,7 @@ h6 {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: black;
+  background-color: rgba(4, 14, 22, 0.9);
   z-index: 999;
   padding: 0;
   transition: background-color 0.8s;
@@ -255,7 +257,7 @@ h6 {
 }
  */
 #portfolio {
-  background-color: #423a3a;
+  background-color: rgba(4, 14, 22, 0.9);
   padding-bottom: 80px;
 }
 
@@ -295,6 +297,7 @@ h6 {
   top: 0px;
   left: 0px;
   padding: 15px;
+  font-size: 18px; 
 }
 
 #portfolio .description > * {
@@ -344,7 +347,7 @@ h6 {
 #portfolio div:nth-child(even) section {
   background-color: #3d3636;
   padding: 10px;
-  border: 3px solid #393333;
+  border: 3px solid rgba(4, 14, 22, 0.9);
 }
 
 #portfolio img {
@@ -392,7 +395,7 @@ h6 {
   position: relative;
   top: -80px;
   left: -30px;
-  color: rgba(4, 14, 22, 0.83);
+  color: rgba(12, 135, 236, 0.83);
 }
 
 #portfolio section:hover .overlay .description > * {
@@ -412,7 +415,7 @@ h6 {
 }
 
 #contact .overlay {
-  background: rgba(0, 0, 0, 0.968);
+  background: rgba(4, 14, 22, 0.9);
 }
 
 #contact h2 {
@@ -439,7 +442,7 @@ h6 {
   border: 0;
   border-bottom: 6px solid #114190;
   padding: 9px;
-  background-color: #2b2b2b;
+  background-color: rgba(4, 14, 22, 0.9);
   color: white;
 }
 
@@ -472,7 +475,7 @@ h6 {
 
 #contact #submitBTN:hover {
   background-color: white;
-  color: black;
+  color: rgba(4, 14, 22, 0.9);
   transition: background-color 0.4s;
 }
 
