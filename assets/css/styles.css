@@ -3,9 +3,10 @@
   margin: 0;
 } 
 
-body {
+.container-flex{
+  /* font-family: 'Lato', sans-serif; */
   font-family: "Fauna One", serif;
-  font-size: 20px;
+  font-size: 15px;
 }
 
  ul > li a{
@@ -105,7 +106,8 @@ h6 {
 .overlay {
   background-color: rgba(4, 14, 22, 0.9);
   height: 100%;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
+  
 }
 
 #home {
@@ -118,6 +120,7 @@ h6 {
   margin: 0 auto;
   width: 700px;
   padding-top: 40px;
+  
 }
 
 #home nav ul {
@@ -126,6 +129,7 @@ h6 {
 
 #home nav ul li {
   width: 25%;
+  
 }
 
 #home nav a {
@@ -134,7 +138,7 @@ h6 {
   display: table-cell;
 }
 
-#home nav.fixed {
+#home nav{
   position: fixed;
   top: 0;
   left: 0;
@@ -145,21 +149,12 @@ h6 {
   transition: background-color 0.8s;
 }
 
-#home nav.fixed ul {
+#home nav ul {
   max-width: 700px;
   margin: 0 auto;
 }
 
-#about::before {
-  height: 0px;
-  width: 0px;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-top: 30px solid #131c23;
-  margin: 0 auto;
-  content: "";
-  display: block;
-}
+
 
 .social-links {
   margin-top: 100px;
@@ -175,13 +170,13 @@ h6 {
   margin-right: 10px;
 }
 
-.twitter {
+/* .twitter {
   border-color: #55acee;
 }
 
 .linkedin {
   border-color: #0077b5;
-}
+} */
 
 /* .freecodecamp {
   border-color: #4a2b0f;
@@ -202,6 +197,17 @@ h6 {
   transition: background-color 0.4s;
 } */
 
+#about::before {
+  height: 0px;
+  width: 0px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #131c23;
+  margin: 0 auto;
+  content: "";
+  display: block;
+}
+
 #about .info {
   display: flex;
   flex-direction: row;
@@ -220,11 +226,12 @@ h6 {
 }
 
 #about .signature {
-  font-family: "Brush Script MT", cursive;
+  font-family: 'Kaushan Script', cursive;
   font-size: 150%;
   float: right;
   color: #0d2435;
   opacity: 0.9;
+  
 }
 
 #skill-set {
